@@ -36,14 +36,14 @@ const Header = () => {
 
     addToMailchimp(email)
       .then((data) => {
-        console.log(data)
+        // console.log(data)
         setEmailResponse(emailResponse = data)
       })
   }
 
   const emailSubmit = (e) => {
     setEmail(e.currentTarget.value)
-    console.log(e.currentTarget.value)
+    // console.log(e.currentTarget.value)
   }
 
   return (

@@ -48,18 +48,18 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-        endpoint: 'https://twitter.us19.list-manage.com/subscribe/post?u=02c66175e77c1b3f14213354c&amp;id=8e02001bad',
+        endpoint: 'https://netlify.us19.list-manage.com/subscribe/post?u=02c66175e77c1b3f14213354c&amp;id=8e02001bad',
       },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+        trackingId: "UA-134080378-3",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: false,
         // Enables Google Optimize using your container Id
-        optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
+        //optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
       },
     }
   ],
