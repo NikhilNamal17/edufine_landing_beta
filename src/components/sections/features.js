@@ -81,7 +81,7 @@ const FeaturesGrid = styled.div`
   grid-row-gap: 35px;
   @media (max-width: ${props => props.theme.screen.sm}) {
     grid-template-columns: 1fr;
-    padding: 0 64px;
+    padding: 0 40px;
   }
 `
 
@@ -100,5 +100,5 @@ const FeatureTitle = styled.h4`
 `
 
 const FeatureText = styled.p`
-  text-align: center;
+  
 `
