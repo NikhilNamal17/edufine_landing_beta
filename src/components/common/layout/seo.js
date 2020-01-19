@@ -48,7 +48,7 @@ const SEO = ({ description, lang, meta, title, twitterUsername, image }) => {
         },
         {
           property: `og:image`,
-          content: site.siteMetadata.image,
+          content: image,
         },
         {
           name: `twitter:card`,
@@ -56,7 +56,7 @@ const SEO = ({ description, lang, meta, title, twitterUsername, image }) => {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.twitterUsername,
+          content: twitterUsername,
         },
         {
           name: `twitter:title`,
@@ -68,7 +68,7 @@ const SEO = ({ description, lang, meta, title, twitterUsername, image }) => {
         },
         {
           property: `twitter:image`,
-          content: site.siteMetadata.image,
+          content: image,
         },
       ].concat(meta)}
     />

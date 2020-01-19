@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `EduFine`,
-    description: `A simple one page marketing starter for saas companies.`,
+    description: `All your MU resources,for free! We're building a one stop solution for MU students.`,
     author: `Nikhil Namal & Karan Bhatt`,
     image: `src/images/site-image.png`,
     twitterUsername: "@Nikhil17_namal",
