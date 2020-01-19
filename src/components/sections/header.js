@@ -25,10 +25,10 @@ const Header = () => {
     e.preventDefault()
     emailResponse = data.msg
 
-    return (< FormSubtitle >
-      {emailResponse}
+    // return (< FormSubtitle >
+    //   {emailResponse}
 
-    </FormSubtitle >)
+    // </FormSubtitle >)
   }
 
   const handleSubmit = (e) => {
@@ -51,27 +51,23 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Personal Finance</Subtitle>
+            <Subtitle>EduFine Resources</Subtitle>
             <h1>
-              All your money,
+              All your MU resources,
               <br />
-              one account
+              for free!
             </h1>
 
             <h2>
-              We're building next generation personal finance tools. Sign up to
-              get early access.
+              We're building a one stop solution for MU students.
+              Sign up to get limited early access.
             </h2>
             <HeaderForm onSubmit={emailClick}>
               <HeaderInput required type="email" onChange={emailSubmit} placeholder="Your email" />
               <HeaderButton onClick={handleSubmit} >Early access</HeaderButton>
             </HeaderForm>
-            {/* <div id="mce-responses" class="clear">
-              <div class="response" id="mce-success-response" style="display:none">{setEmail}</div>
-            </div> */}
             <FormSubtitle>
               {emailResponse.msg}
-
             </FormSubtitle>
           </HeaderTextGroup>
           <ImageWrapper>

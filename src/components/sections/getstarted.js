@@ -12,7 +12,7 @@ const GetStarted = () => (
       </AnchorLink>
 
 
-      <Subtitle>No credit card required.</Subtitle>
+      <Subtitle>First come, first serve. No credit card required.</Subtitle>
     </GetStartedContainer>
   </StyledSection>
 )

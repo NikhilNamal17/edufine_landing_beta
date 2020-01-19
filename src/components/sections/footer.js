@@ -9,8 +9,20 @@ const Footer = () => (
       <FooterColumn>
         <span>Features</span>
         <ul>
-          <li>Automation</li>
-          <li>Rewards</li>
+          <li>Quality content</li>
+          <li>Completely customisable</li>
+          <li>Read anytime, anywhere.</li>
+          {/* <li>A tenth of the price</li>
+          <li>Bookmarks</li>
+          <li>Fast updates</li> */}
+        </ul>
+      </FooterColumn>
+      <FooterColumn>
+        <span></span>
+        <ul>
+          <li>A tenth of the price</li>
+          <li>Bookmarks</li>
+          <li>Fast updates</li>
         </ul>
       </FooterColumn>
       {/* <FooterColumn>
@@ -27,13 +39,13 @@ const Footer = () => (
           <li>Careers</li>
         </ul>
       </FooterColumn> */}
-      <FooterColumn>
+      {/* <FooterColumn>
         <span>Social</span>
         <ul>
           <li>LinkedIn</li>
           <li>Instagram</li>
         </ul>
-      </FooterColumn>
+      </FooterColumn> */}
     </FooterColumnContainer>
     <BrandContainer>
       <Logo>EduFine</Logo>

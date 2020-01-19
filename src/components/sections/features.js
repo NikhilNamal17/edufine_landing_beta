@@ -7,44 +7,47 @@ const Features = () => (
   <Section id="features">
     <StyledContainer>
       <Subtitle>Features</Subtitle>
-      <SectionTitle>Smart money management</SectionTitle>
+      <SectionTitle>Smart semester management</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
-          <FeatureTitle>Notifications</FeatureTitle>
+          <FeatureTitle>Quality content</FeatureTitle>
           <FeatureText>
-            Receive budget and spending alerts based on your favorite triggers.
+            We only deliver the best content that is easy to understand and recommended by Mumbai University.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Security</FeatureTitle>
+          <FeatureTitle>Completely customisable</FeatureTitle>
           <FeatureText>
-            Your data is always safe with us as we use the latest security
-            protocols.
+            An assortment of premium themes and completely customisable interface.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Automation</FeatureTitle>
+          <FeatureTitle>A tenth of the price</FeatureTitle>
           <FeatureText>
-            Create smart automated workflows and triggers for your money.
+            An average student spends over Rs. 5000 per year on resources alone.
+           Our Diamond membership is a fraction of that price.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Aggregation</FeatureTitle>
+          <FeatureTitle>Read anytime, anywhere.</FeatureTitle>
           <FeatureText>
-            Easily link up to 5 banks to your finance account.
+            Cross browser compatibility with support for mobile as well.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Payments</FeatureTitle>
-          <FeatureText>Send money to friends and family with ease.</FeatureText>
+          <FeatureTitle>Bookmarks</FeatureTitle>
+          <FeatureText>
+            You can save important parts to refer back to later.
+          </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Rewards</FeatureTitle>
+          <FeatureTitle>Fast updates</FeatureTitle>
           <FeatureText>
-            High interest and rewards for hitting your goals.
+            Our content is regularly updated with the current Mumbai University syllabus. This includes repeated questions from the past years as well.
           </FeatureText>
         </FeatureItem>
       </FeaturesGrid>
+      <Subtitle> Note: This app currently has courses for Semster 8 Electronics and Telecommunications and Computer Science students only. </Subtitle>
     </StyledContainer>
   </Section>
 )
