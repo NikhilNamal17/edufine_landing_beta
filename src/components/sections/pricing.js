@@ -10,16 +10,11 @@ class Pricing extends React.Component {
     handleSubmit = event => {
         event.preventDefault()
         window.location.href = "#top"
-
-
     }
 
 
     render() {
-
         return (
-
-
             <Section id="pricing">
                 <StyledContainer>
                     <Subtitle>Pricing</Subtitle>
@@ -39,13 +34,13 @@ class Pricing extends React.Component {
                             </ActionsContainer> */}
 
                         </PricingSlot>
-                        <PricingSlot highlighted onClick={this.handleSubmit} buttonText='SIGN UP' title='GOLD' priceText='&#8377; 400/quater'>
+                        <PricingSlot highlighted onClick={this.handleSubmit} buttonText='SIGN UP' title='GOLD' priceText='&#8377; 400/semester'>
                             <PricingDetail> <b>2 Screen</b></PricingDetail>
                             <PricingDetail> <b>All Subjects</b> </PricingDetail>
                             <PricingDetail> <b>Dark Mode</b></PricingDetail>
                             <PricingDetail strikethrough> <b>Video/Display Ads</b> </PricingDetail>
                         </PricingSlot>
-                        <PricingSlot onClick={this.handleSubmit} buttonText='SIGN UP' title='DAIMOND' priceText='&#8377; 700/year'>
+                        <PricingSlot onClick={this.handleSubmit} buttonText='SIGN UP' title='DIAMOND' priceText='&#8377; 700/year'>
                             <PricingDetail> <b>2 Screen</b></PricingDetail>
                             <PricingDetail> <b>All Subjects</b> </PricingDetail>
                             <PricingDetail> <b>Dark Mode</b></PricingDetail>

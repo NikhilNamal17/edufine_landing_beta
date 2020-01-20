@@ -24,11 +24,6 @@ const Header = () => {
   const emailClick = (e) => {
     e.preventDefault()
     emailResponse = data.msg
-
-    // return (< FormSubtitle >
-    //   {emailResponse}
-
-    // </FormSubtitle >)
   }
 
   const handleSubmit = (e) => {
