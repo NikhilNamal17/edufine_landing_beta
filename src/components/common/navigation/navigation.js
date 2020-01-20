@@ -82,7 +82,7 @@ export default class Navigation extends Component {
             </Scrollspy>
           </Brand>
           <Mobile>
-            <button
+            <button id="hamburger"
               onClick={this.toggleMobileMenu}
               style={{ color: "black", background: "none" }}
             >

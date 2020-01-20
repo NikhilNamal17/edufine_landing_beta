@@ -1,7 +1,7 @@
 {
   "name": "EduFine",
   "private": true,
-  "description": "A simple one page marketing starter for saas companies",
+  "description": "All your MU resources,for free! We're building a one stop solution for MU students.",
   "version": "0.1.0",
   "author": "Nikhil Namal && Karan Bhatt <nikhilnamal16@gmail.com>",
   "dependencies": {

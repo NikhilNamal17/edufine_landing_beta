@@ -8,7 +8,7 @@ const GetStarted = () => (
     <GetStartedContainer>
       <GetStartedTitle>Be the first to get the beta</GetStartedTitle>
       <AnchorLink href="#top">
-        <TryItButton>Get early access</TryItButton>
+        <TryItButton id="signup">Get early access</TryItButton>
       </AnchorLink>
 
 

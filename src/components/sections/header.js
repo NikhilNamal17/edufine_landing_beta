@@ -57,9 +57,9 @@ const Header = () => {
               We're building a one stop solution for MU students.
               Sign up to get limited early access.
             </h2>
-            <HeaderForm onSubmit={emailClick}>
-              <HeaderInput required type="email" onChange={emailSubmit} placeholder="Your email" />
-              <HeaderButton onClick={handleSubmit} >Early access</HeaderButton>
+            <HeaderForm id="signup_form" onSubmit={emailClick}>
+              <HeaderInput required name="signup_form" type="email" onChange={emailSubmit} placeholder="Your email" />
+              <HeaderButton id="signup" onClick={handleSubmit} >Early access</HeaderButton>
             </HeaderForm>
             <FormSubtitle>
               {emailResponse.msg}
