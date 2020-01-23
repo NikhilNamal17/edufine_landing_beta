@@ -19,7 +19,7 @@ class Pricing extends React.Component {
                 <StyledContainer>
                     <Subtitle>Pricing</Subtitle>
                     <SectionTitle>Find a plan that's right for you.</SectionTitle>
-                    <FeatureText>Every  Plan Include 15-Day Free Trial.</FeatureText>
+                    <FeatureText>Every  Plan Includes 15-Day Free Trial.</FeatureText>
                     <PricingTable highlightColor='#098c8c'>
                         <PricingSlot id="pricing" onClick={this.handleSubmit} buttonText="SIGN UP" title='FREE' priceText='&#8377; 0'>
                             <PricingDetail> <b>1 Screen</b></PricingDetail>
